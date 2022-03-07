@@ -55,9 +55,12 @@ function makeQuiz(questions, quizBox, resultsBox, submitButton){
 	function showResults(questions, quizBox, resultsBox){
 	function 
     showQuestions(questions, quizBox);
-submitButton.onclick = function(){
+
+    submitButton.onclick = function(){
 		showResults(questions, quizBox, resultsBox);
 
 		//Add a timer to the questions//
+funtion addTimer(questions, answers){
 
+}
 	
